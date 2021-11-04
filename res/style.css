@@ -547,6 +547,7 @@ a:hover {
   color: #6c757d;
 }
 
+/* make dynamic */
 @media only screen and (min-width: 768px) { 
     .post-preview > a > .post-title {
         font-size: 40px;
