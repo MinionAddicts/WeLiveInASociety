@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Resources -->
+    <link href="../../res/style.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>WeLiveInASociety</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="/WeLiveInASociety/">WeLiveInASociety</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="../../">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="../../about">About</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead" style="background: url(ben_post_header.jpg);">
+  
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="page-heading">
+                <h1>How Olympic Tracking Systems Capture Athletic Performances</h1>
+                
+                <span class="subheading">The 3-D tracking systems used in Tokyo may one day enable digital twins of athletes</span>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <!-- main content -->
+    <div class="container px-4 px-lg-5">
+
+        <div class="row gx-4 gx-lg-5 pt-3 justify-content-center">
+            <div class="col-xl-10">
+                <p> The technology on display in Tokyo suggests that the future of elite athletic 
+                    training lies not merely in gathering data about the human body, but in using 
+                    that data to create digital replicas of it. These avatars could one day run through 
+                    hypothetical scenarios to help athletes decide which choices will produce the best outcomes.</p>
+            </div>
+        </div>
+        <div class="row gx-4 gx-lg-5 py-3 justify-content-center">
+            <div class="col-xl-7">
+                <p> The tracking system being used in Tokyo, an Intel product called 3DAT, feeds 
+                    live footage into the cloud. There, an artificial intelligence program uses deep 
+                    learning to analyze an athlete’s movements and identifies key performance characteristics 
+                    such as top speed and deceleration.The system shares that information with viewers by 
+                    displaying slow-motion graphic representations of the action, highlighting key moments. 
+                    The whole process, from capturing the footage to broadcasting the analysis, takes less than 30 seconds.
+                    <br><br>
+                    For example, during NBC ’s broadcast of the 100 meter trials in Eugene, Ore., the AI showed how Sha'Carri 
+                    Richardson hit 24.1 miles per hour at her peak and slowed to 20.0 mph by the time she reached the finish line. 
+                    That was enough to win the race: Richardson ’s runner-up hit a maximum speed of 23.2 miles per hour and slowed 
+                    to 20.4 mph at the line.
+                    <br><br>
+                    “It ’s like having your own personal commentator point things out to you in the race,” says Jonathan Lee, director 
+                    of sports performance technology in the Olympic technology group at Intel.</p>
+            </div>
+            <div class="col-xl-3">
+                <img class="img-fluid" src="ben_post_content.jpg">
+
+            </div>
+        </div>
+        <div class="row gx-4 gx-lg-5 py-3 justify-content-center">
+            <div class="col-xl-10">
+                <p> To train their Olympic AI via machine learning, Lee and his team had to capture as much 
+                    footage of elite track and field athletes in motion as they could. They needed recordings 
+                    of human bodies performing specific moves, but the preexisting footage used for similar 
+                    research shows average people in motion, which would have confused the algorithm, Lee says. 
+                    “People aren’t usually fully horizontal seven feet in the air,” he notes, but world-class 
+                    high jumpers reach such heights regularly.
+                    <br><br>
+                    In the footage, a team at Intel manually annotated every part of the body—eyes, nose, shoulders, 
+                    and more—pixel by pixel. Once those key points were identified, the model could begin connecting 
+                    them in three dimensions until it had a simplified rendering of an athlete ’s form. Tracking 
+                    this “skeleton” enables the program to perform 3-D pose estimation (a computer vision technique 
+                    that tracks an object and tries to predict the changes it might undergo in space) on the athlete 
+                    ’s body as it moves through an event.
+                    <br><br>
+                    The tracking system is limited to the track-and-field events at this year ’s games. But similar 
+                    technology could become standard in a variety of sports, suggests Barbara Rita Barricelli, who 
+                    is a human-computer interaction researcher and assistant professor at Italy ’s University of 
+                    Brescia and is not involved with the Intel project. “The real big shift is when a technology is 
+                    not only used for entertainment or research, but is accepted by the community of practice,” Barricelli 
+                    says. For example, when video-assistant referees were first used in soccer, they were popular with 
+                    broadcast networks—but some human referees refused to rely on them for game-changing decisions. 
+                    The technology remains controversial, but now many officials routinely use the video assistant to help 
+                    make a call. Baricelli suggests 3DAT ’s Olympic debut may be “a big step for research meeting 
+                    practice—or better, practice embracing research results.”</p>
+            </div>
+        </div>
+        <div class="row gx-4 gx-lg-5 py-2 justify-content-center">
+            <div class="col-xl-10">
+                <p>Article taken by <a href="https://www.scientificamerican.com/article/how-olympic-tracking-systems-capture-athletic-performances/">Scientific American</a></p>
+                <hr class="my-4" />
+                <p class="post-meta pb-5">
+                    Posted by
+                    <a href="#!">Ben Sohanpal</a>
+                    on November 3, 2021
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS script -->
+    <script src="res/script.js"></script>
+    
+    <!-- Include Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
