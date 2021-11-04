@@ -530,22 +530,48 @@ a:hover {
   text-decoration: none;
   color: #0085A1;
 }
+
 .post-preview > a > .post-title {
-  font-size: 2.25vw;
-  margin-top: 1.875rem;
-  margin-bottom: 0.625rem;
+    margin-top: 1.875rem;
+    margin-bottom: 0.625rem;
 }
+
 .post-preview > a > .post-subtitle {
-  font-size: 1.75vw;
   font-weight: 300;
   margin-bottom: 0.625rem;
 }
+
 .post-preview > .post-meta {
-  font-size: 1vw;
   font-style: italic;
   margin-top: 0;
   color: #6c757d;
 }
+
+/* make dynamic */
+@media only screen and (min-width: 768px) { 
+    .post-preview > a > .post-title {
+        font-size: 40px;
+    }
+    .post-preview > a > .post-subtitle {
+        font-size: 30px;
+    }
+    .post-preview > .post-meta {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) { 
+    .post-preview > a > .post-title {
+        font-size: 50px;
+    }
+    .post-preview > a > .post-subtitle {
+        font-size: 40px;
+    }
+    .post-preview > .post-meta {
+        font-size: 20px;
+    }
+}
+
 .post-preview > .post-meta > a {
   text-decoration: none;
 }
